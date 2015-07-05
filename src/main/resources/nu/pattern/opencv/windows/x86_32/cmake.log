@@ -1,0 +1,112 @@
+-- Detected version of GNU GCC: 48 (408)
+-- CUDA compilation is disabled (due to only Visual Studio compiler supported on your platform).
+-- Could NOT find PythonLibs (missing:  PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is exact version "2.7.9")
+-- Found apache ant 1.9.4: C:/Libraries/apache-ant-1.9.4/bin/ant.bat
+-- 
+-- General configuration for OpenCV 2.4.10 =====================================
+--   Version control:               2.4.10-135-g4e9cb47
+-- 
+--   Platform:
+--     Host:                        Windows 6.2 AMD64
+--     CMake:                       3.1.0
+--     CMake generator:             MinGW Makefiles
+--     CMake build tool:            C:/Libraries/MinGW/bin/mingw32-make.exe
+--     Configuration:               Release
+-- 
+--   C/C++:
+--     Built as dynamic libs?:      NO
+--     C++ Compiler:                C:/Libraries/MinGW/bin/g++.exe  (ver 4.8.1)
+--     C++ flags (Release):         -m32 -fPIC   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -O2 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -m32 -fPIC   -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  C:/Libraries/MinGW/bin/gcc.exe
+--     C flags (Release):           -m32 -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -O2 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -m32 -fPIC   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      
+--     Linker flags (Debug):        
+--     Precompiled headers:         YES
+-- 
+--   OpenCV modules:
+--     To be built:                 core flann imgproc highgui features2d calib3d ml video legacy objdetect photo gpu ocl nonfree contrib java stitching superres ts videostab
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 androidcamera dynamicuda python viz
+-- 
+--   Windows RT support:            NO
+-- 
+--   GUI: 
+--     QT:                          NO
+--     Win32 UI:                    YES
+--     OpenGL support:              NO
+--     VTK support:                 NO
+-- 
+--   Media I/O: 
+--     ZLib:                        build (ver 1.2.7)
+--     JPEG:                        build (ver 62)
+--     PNG:                         build (ver 1.5.12)
+--     TIFF:                        build (ver 42 - 4.0.2)
+--     JPEG 2000:                   build (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+-- 
+--   Video I/O:
+--     Video for Windows:           YES
+--     DC1394 1.x:                  NO
+--     DC1394 2.x:                  NO
+--     FFMPEG:                      YES (prebuilt binaries)
+--       codec:                     YES (ver 55.18.102)
+--       format:                    YES (ver 55.12.100)
+--       util:                      YES (ver 52.38.100)
+--       swscale:                   YES (ver 2.3.100)
+--       gentoo-style:              YES
+--     OpenNI:                      NO
+--     OpenNI PrimeSensor Modules:  NO
+--     PvAPI:                       NO
+--     GigEVisionSDK:               NO
+--     DirectShow:                  YES
+--     Media Foundation:            NO
+--     XIMEA:                       NO
+--     Intel PerC:                  NO
+-- 
+--   Other third-party libraries:
+--     Use IPP:                     NO
+--     Use Eigen:                   NO
+--     Use TBB:                     NO
+--     Use OpenMP:                  NO
+--     Use GCD                      NO
+--     Use Concurrency              NO
+--     Use C=:                      NO
+--     Use Cuda:                    NO
+--     Use OpenCL:                  YES
+-- 
+--   OpenCL:
+--     Version:                     dynamic
+--     Include path:                C:/Users/Michael/build_opencv/itseez-opencv/3rdparty/include/opencl/1.2
+--     Use AMD FFT:                 NO
+--     Use AMD BLAS:                NO
+-- 
+--   Python:
+--     Interpreter:                 C:/Libraries/Python27/python.exe (ver 2.7.9)
+-- 
+--   Java:
+--     ant:                         C:/Libraries/apache-ant-1.9.4/bin/ant.bat (ver 1.9.4)
+--     JNI:                         C:/Program Files/Java/jdk1.8.0_25/include C:/Program Files/Java/jdk1.8.0_25/include/win32 C:/Program Files/Java/jdk1.8.0_25/include
+--     Java tests:                  YES
+-- 
+--   Documentation:
+--     Build Documentation:         NO
+--     Sphinx:                      NO
+--     PdfLaTeX compiler:           NO
+--     Doxygen:                     NO
+-- 
+--   Tests and samples:
+--     Tests:                       YES
+--     Performance tests:           YES
+--     C/C++ Examples:              NO
+-- 
+--   Install path:                  C:/Users/Michael/build_opencv/itseez-opencv/build/install
+-- 
+--   cvconfig.h is in:              C:/Users/Michael/build_opencv/itseez-opencv/build
+-- -----------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Michael/build_opencv/itseez-opencv/build
